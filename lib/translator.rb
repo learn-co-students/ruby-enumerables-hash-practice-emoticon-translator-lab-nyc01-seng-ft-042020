@@ -26,6 +26,7 @@ def get_japanese_emoticon(emoticon_file = './lib/emoticons.yml', emoticon)
     return "Sorry, that emoticon was not found"
   end
 end
+# test ? emoticon_library[test][:japanese] : "Sorry, that emoticon was not found"
 
 
 def get_english_meaning(emoticon_file = './lib/emoticons.yml', emoticon)
@@ -39,3 +40,4 @@ def get_english_meaning(emoticon_file = './lib/emoticons.yml', emoticon)
     return "Sorry, that emoticon was not found"
   end
 end
+#meaning ? meaning : "Sorry, that emoticon was not found"
